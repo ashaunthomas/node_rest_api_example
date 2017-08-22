@@ -1,0 +1,17 @@
+{
+  "name": "restapitutorial",
+  "version": "1.0.0",
+  "description": "tutorial for restful api",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "ashaun thomas",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^3.9.1"
+  },
+  "dependencies": {
+    "express": "^4.15.4"
+  }
+}
