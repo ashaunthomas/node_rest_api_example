@@ -12,6 +12,7 @@
     "gulp": "^3.9.1"
   },
   "dependencies": {
-    "express": "^4.15.4"
+    "express": "^4.15.4",
+    "mongoose": "^4.11.7"
   }
 }

@@ -1,11 +1,10 @@
-var express = require('express');
+var express = require('express')
+    mongoose = require('mongoose');
 
 var app = express();
-
 var port = process.env.port || 3000; 
-
 var bookRouter = express.Router(); //router instance to define routes
-
+var db = mongoose.connect('mongodb://localhost/bookAPI');
 bookRouter.route('/Books')
     .get(function(req, res) {
         var responseJson = {hello: "This is my API"};
